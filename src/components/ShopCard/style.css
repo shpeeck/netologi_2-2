@@ -1,0 +1,48 @@
+.shop-card {
+    width: 100%;
+    max-width: 320px;
+    /* height: 250px; */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f6;
+    box-shadow: 0 5px 5px 5px rgb(163, 162, 162);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-card h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.shop-card h3 {
+    text-transform: uppercase;
+}
+
+.shop-card p {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.chop-card_prise {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+}
+
+.chop-card_prise button {
+    color: red;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
